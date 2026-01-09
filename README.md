@@ -43,3 +43,4 @@ int main(void) {
    因为 C 语言实际上把 enum 当作整数类型。
    例如 `lept_value a = lept_null;` 实际上就是把 `a` 赋值为 0，
    因为 `lept_null` 是枚举的第一个值。
+2. JSON 顶层只能是 一个 值（value），而这个值可以是：null、true/false、数字、字符串、数组、对象
